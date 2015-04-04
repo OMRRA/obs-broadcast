@@ -1,0 +1,206 @@
+{
+    "current_scene": "Scene 1",
+    "sources": [
+        {
+            "enabled": true,
+            "flags": 0,
+            "id": "scene",
+            "mixers": 0,
+            "muted": false,
+            "name": "Scene",
+            "settings": {
+                "items": [
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "name": "Title",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.5,
+                            "y": 1.0
+                        },
+                        "visible": true
+                    }
+                ]
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "enabled": true,
+            "flags": 0,
+            "id": "image_source",
+            "mixers": 0,
+            "muted": false,
+            "name": "Title",
+            "settings": {
+                "file": "round-1-title.png"
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "enabled": true,
+            "flags": 0,
+            "id": "scene",
+            "mixers": 0,
+            "muted": false,
+            "name": "Scene 1",
+            "settings": {
+                "items": [
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "name": "Bg",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.5,
+                            "y": 1.0
+                        },
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "name": "Video",
+                        "pos": {
+                            "x": 94.0,
+                            "y": 52.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "name": "Timing",
+                        "pos": {
+                            "x": 94.0,
+                            "y": 52.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "visible": true
+                    }
+                ]
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "enabled": true,
+            "flags": 0,
+            "id": "image_source",
+            "mixers": 0,
+            "muted": false,
+            "name": "Bg",
+            "settings": {
+                "file": "video-bg.png"
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "enabled": true,
+            "flags": 0,
+            "id": "av_capture_input",
+            "mixers": 0,
+            "muted": false,
+            "name": "Video",
+            "settings": {
+                "buffering": true,
+                "device": "0x14700000045e075d",
+                "device_name": "Microsoft® LifeCam Cinema(TM) #2"
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "enabled": true,
+            "filters": [
+                {
+                    "enabled": false,
+                    "flags": 0,
+                    "id": "chroma_key_filter",
+                    "mixers": 0,
+                    "muted": false,
+                    "name": "Chroma Key",
+                    "settings": {
+                        "key_color": 16777215,
+                        "key_color_type": "custom",
+                        "opacity": 100,
+                        "similarity": 1,
+                        "smoothness": 1,
+                        "spill": 1
+                    },
+                    "sync": 0,
+                    "volume": 1.0
+                },
+                {
+                    "enabled": true,
+                    "flags": 0,
+                    "id": "color_key_filter",
+                    "mixers": 0,
+                    "muted": false,
+                    "name": "Color Key",
+                    "settings": {
+                        "contrast": 0.0,
+                        "key_color": 16777215,
+                        "key_color_type": "custom",
+                        "similarity": 1,
+                        "smoothness": 1
+                    },
+                    "sync": 0,
+                    "volume": 1.0
+                }
+            ],
+            "flags": 0,
+            "id": "browser_source",
+            "mixers": 0,
+            "muted": false,
+            "name": "Timing",
+            "settings": {
+                "height": 720,
+                "url": "index.html",
+                "width": 1280
+            },
+            "sync": 0,
+            "volume": 1.0
+        }
+    ]
+}
